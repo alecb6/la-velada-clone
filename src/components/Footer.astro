@@ -1,0 +1,43 @@
+---
+import X from "../assets/svg/x.svg";
+import Instagram from "../assets/svg/instagram.svg";
+import Github from "../assets/svg/github.svg";
+---
+
+<footer class="relative w-screen h-[400px] pb-32">
+  <div
+    class="absolute inset-0 bg-cover bg-bottom bg-[url('/images/footer.webp')] mask-radial-from-green-950 [mask-image:linear-gradient(transparent, black_50%)]"
+  >
+  </div>
+  <div
+    class="relative h-full flex flex-col justify-center items-center text-[#2a1f26]"
+  >
+    <div class="footer-content">
+      <p>2025 | Todos los derechos reservados.</p>
+    </div>
+
+    <div class="flex flex-row items-center justify-center gap-x-2 mt-4">
+      <a
+        class="hover:scale-125 transition"
+        href="https://twitter.com/infolavelada"
+        target="_blank"
+      >
+        <X />
+      </a>
+      <a
+        class="hover:scale-125 transition"
+        href="https://instagram.com/infoLaVelada"
+        target="_blank"
+      >
+        <Instagram />
+      </a>
+      <a
+        class="hover:scale-125 transition"
+        href="https://github.com/midudev/la-velada-web-oficial"
+        target="_blank"
+      >
+        <Github />
+      </a>
+    </div>
+  </div>
+</footer>
