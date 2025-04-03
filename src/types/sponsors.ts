@@ -29,7 +29,7 @@ export interface Sponsors {
   name: SponsorName;
   url: string;
   image: {
-    logo: any;
+    logo: ImageData | HTMLImageElement | SVGElement;
     width: number;
     height: number;
   };
