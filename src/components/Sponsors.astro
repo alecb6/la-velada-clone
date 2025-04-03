@@ -14,7 +14,7 @@ const secondRow = SPONSORS.slice(5);
           target="_blank"
           class="size-14 hover:scale-125 transition text-[#2a1f26] flex justify-center items-center"
         >
-          <image.logo class="h-14 w-auto" />
+          {!image.logo ? <p>{name}</p> : <image.logo class="h-14 w-auto" />}
         </a>
       ))
     }
@@ -27,7 +27,7 @@ const secondRow = SPONSORS.slice(5);
           target="_blank"
           class="size-14 hover:scale-125 transition text-[#2a1f26] flex justify-center items-center"
         >
-          <image.logo class="h-14 w-auto" />
+          {!image.logo ? <p>{name}</p> : <image.logo class="h-14 w-auto" />}
         </a>
       ))
     }
