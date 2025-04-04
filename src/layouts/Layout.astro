@@ -1,10 +1,11 @@
 ---
+import { ClientRouter } from "astro:transitions";
 import "../styles/global.css";
 
 import Header from "../components/Header.astro";
 import Footer from "../components/Footer.astro";
 
-import Analytics from '@vercel/analytics/astro'
+import Analytics from "@vercel/analytics/astro";
 ---
 
 <!doctype html>
@@ -43,6 +44,7 @@ import Analytics from '@vercel/analytics/astro'
       name="twitter:description"
       content="Evento de Boxeo de Streamer organizado por Ibai Llanos"
     />
+    <ClientRouter />
   </head>
   <body>
     <Header />
@@ -51,8 +53,7 @@ import Analytics from '@vercel/analytics/astro'
     </main>
     <!-- contenido de la pagina -->
     <Footer />
-  </body>
-  <Analytics />
+  </body><Analytics />
 </html>
 
 <style>
@@ -61,10 +62,6 @@ import Analytics from '@vercel/analytics/astro'
     margin: 0;
     width: 100%;
     height: 100%;
-	background-color: #f19fca;
-  }
-
-  main {
-	min-height: 100vh;
+    background-color: #f19fca;
   }
 </style>
