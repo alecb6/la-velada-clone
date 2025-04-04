@@ -1,48 +1,67 @@
-# Astro Starter Kit: Basics
+La Velada del Año 5 - Clonación de la Página Oficial
+Este proyecto es una clonación de la página oficial de "La Velada del Año 5", un evento de boxeo organizado por Ibai Llanos que enfrenta a streamers, creadores de contenido y otras celebridades en el ring.
 
-```sh
-npm create astro@latest -- --template basics
-```
+Descripción
+La Velada del Año es un evento anual que reúne a diversas personalidades de internet en combates de boxeo. Este proyecto recrea la página oficial del evento, proporcionando información detallada sobre la fecha, hora, ubicación y participantes.
 
-[![Open in StackBlitz](https://developer.stackblitz.com/img/open_in_stackblitz.svg)](https://stackblitz.com/github/withastro/astro/tree/latest/examples/basics)
-[![Open with CodeSandbox](https://assets.codesandbox.io/github/button-edit-lime.svg)](https://codesandbox.io/p/sandbox/github/withastro/astro/tree/latest/examples/basics)
-[![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/withastro/astro?devcontainer_path=.devcontainer/basics/devcontainer.json)
+Características
+Detalles del evento: Información sobre la fecha, hora, ubicación y artistas participantes.
 
-> 🧑‍🚀 **Seasoned astronaut?** Delete this file. Have fun!
+Compra de boletos: Enlaces para facilitar la adquisición de entradas.
 
-![just-the-basics](https://github.com/withastro/astro/assets/2244813/a0a5533c-a856-4198-8470-2d67b1d7c554)
+Redes sociales: Enlaces a las redes oficiales para obtener actualizaciones sobre el evento.
 
-## 🚀 Project Structure
+Capturas de Pantalla
 
-Inside of your Astro project, you'll see the following folders and files:
+Tecnologías Utilizadas
+Astro: Framework moderno para la construcción de sitios web estáticos.
 
-```text
-/
-├── public/
-│   └── favicon.svg
-├── src/
-│   ├── layouts/
-│   │   └── Layout.astro
-│   └── pages/
-│       └── index.astro
-└── package.json
-```
+Tailwind CSS: Framework de CSS para diseñar interfaces responsivas y modernas.
 
-To learn more about the folder structure of an Astro project, refer to [our guide on project structure](https://docs.astro.build/en/basics/project-structure/).
+Instalación y Uso
+Clonar el repositorio:
 
-## 🧞 Commands
+bash
+Copiar
+Editar
+git clone https://github.com/alecb6/la-velada-clone.git
+Navegar al directorio del proyecto:
 
-All commands are run from the root of the project, from a terminal:
+bash
+Copiar
+Editar
+cd la-velada-clone
+Instalar las dependencias:
 
-| Command                   | Action                                           |
-| :------------------------ | :----------------------------------------------- |
-| `npm install`             | Installs dependencies                            |
-| `npm run dev`             | Starts local dev server at `localhost:4321`      |
-| `npm run build`           | Build your production site to `./dist/`          |
-| `npm run preview`         | Preview your build locally, before deploying     |
-| `npm run astro ...`       | Run CLI commands like `astro add`, `astro check` |
-| `npm run astro -- --help` | Get help using the Astro CLI                     |
+bash
+Copiar
+Editar
+npm install
+Iniciar el servidor de desarrollo:
 
-## 👀 Want to learn more?
+bash
+Copiar
+Editar
+npm run dev
+Luego, abre tu navegador y visita http://localhost:4321 para ver el sitio en funcionamiento.
 
-Feel free to check [our documentation](https://docs.astro.build) or jump into our [Discord server](https://astro.build/chat).
+Contribuciones
+Las contribuciones son bienvenidas. Si deseas mejorar este proyecto, por favor sigue estos pasos:
+
+Haz un fork del repositorio.
+
+Crea una nueva rama (git checkout -b feature/nueva-funcionalidad).
+
+Realiza tus modificaciones y haz commit de los cambios (git commit -m 'Añadir nueva funcionalidad').
+
+Sube tus cambios a tu fork (git push origin feature/nueva-funcionalidad).
+
+Abre una Pull Request en este repositorio.
+
+Licencia
+Este proyecto está bajo la licencia MIT. Consulta el archivo LICENSE.md para más detalles.
+
+Agradecimientos
+Este proyecto se inspiró en la web oficial de La Velada V de Ibai Llanos y en el clon de la página oficial de la Velada IV de Ibai Llanos.
+
+Nota: Este proyecto es una recreación con fines educativos y no está afiliado oficialmente con La Velada del Año ni con Ibai Llanos.
