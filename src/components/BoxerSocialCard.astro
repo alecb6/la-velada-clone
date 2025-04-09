@@ -1,0 +1,17 @@
+---
+const { name, url, label, followers, image } = Astro.props;
+---
+
+<div
+  class="flex flex-col items-center justify-center gap-2 p-4 bg-white/10 rounded-lg shadow-lg backdrop-blur-sm text-white size-30 group transition-transform duration-700 ease-in-out hover:scale-105"
+>
+  <a
+    href={url}
+    target="_blank"
+    aria-label={label ?? name}
+    class="text-dark-magenta hover:to-theme-turquoise/70 hover:from-theme-tickle-me-pink/70 from-theme-turquoise/70 to-theme-tickle-me-pink/70 flex w-20 flex-col items-center justify-center bg-gradient-to-b transition duration-500 hover:scale-125 shadow-sm rounded-md"
+  >
+  <image.logo aria-hidden="true"/>
+  <span class="text-pink-600 lowercase text-lg">{followers}</span>
+  </a>
+</div>
